@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-PWASPACE-0.1";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js.gz",
-    "Build/Build.data.gz",
-    "Build/Build.wasm.gz",
+    "Build/SpaceDefend.loader.js",
+    "Build/SpaceDefend.framework.js.gz",
+    "Build/SpaceDefend.data.gz",
+    "Build/SpaceDefend.wasm.gz",
     "TemplateData/style.css"
 
 ];
