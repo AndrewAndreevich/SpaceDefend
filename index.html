@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Space Shooter Art Pack 01</title>
+    <title>Unity WebGL Player | PWASPACE</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -57,16 +57,16 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build_02.loader.js";
+      var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build_02.data.unityweb",
-        frameworkUrl: buildUrl + "/Build_02.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build_02.wasm.unityweb",
+        dataUrl: buildUrl + "/Build.data.gz",
+        frameworkUrl: buildUrl + "/Build.framework.js.gz",
+        codeUrl: buildUrl + "/Build.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "Playniax",
-        productName: "Space Shooter Art Pack 01",
-        productVersion: "2.1",
-       // showBanner: unityShowBanner,
+        companyName: "DefaultCompany",
+        productName: "PWASPACE",
+        productVersion: "0.1",
+        showBanner: unityShowBanner,
       };
 
       // By default Unity keeps WebGL canvas render target size matched with
